@@ -1,6 +1,6 @@
 body {
   background: #FFF url("https://i.imgur.com/KheAuef.png") top left repeat-x;
-  font-family: 'Alex Brush', cursive !important;
+ font:normal 75% Arial, Helvetica, sans-serif;
 }
 
 .page    { display: none; padding: 0 0.5em; }
@@ -65,6 +65,7 @@ canvas{
     letter-spacing: 0.1rem;
     transition: all 0.5s ease;
     font-size: 1.5vw;
+  font-family: 'Roboto', sans-serif;
 }
 
 .nav:hover{
@@ -85,6 +86,7 @@ canvas{
 .textOne, .textTwo {
     font-size: 50px;
     margin: 10px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .nextPage{
@@ -114,6 +116,7 @@ canvas{
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
+  font-family: 'Roboto', sans-serif;
 }
 
 .button-85:before {
@@ -181,7 +184,7 @@ canvas{
 
 body {
   font-size: 18px;
-  /*background-color: #010a01;*/
+  
 }  
 
 h1, h2 {
@@ -234,12 +237,13 @@ h2 {
 
 .par{
     margin-top: 20px ;
-    font-size: 20px;
+    font-size: 30px;
     margin:5px;
     color: #fff;
     text-shadow: 1px 1px #f09;
     z-index: -1;
     width:100%;
+  font-family: 'Roboto', sans-serif;
 }
 
 .par:hover{
@@ -316,7 +320,7 @@ h2 {
     border-radius: 10px;
     color: #fff;
     font-size: 1.5rem;
-    font-family: 'Ubuntu', sans-serif;
+   font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
     font-weight: 300;
 }
@@ -493,7 +497,7 @@ h2 {
 }
 
 .web {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     font-size: 28px;
     letter-spacing: 1px;
