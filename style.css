@@ -484,5 +484,10 @@ h2 {
   margin:5px;
         text-align: center;
 }
+  
 
+}
+
+@media only screen and (hover: none){
+      // styles go here
 }
