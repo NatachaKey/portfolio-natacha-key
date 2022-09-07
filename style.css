@@ -4,11 +4,9 @@ body{
     background-color: #201c1c;
 } 
 
-
 canvas{
     display: block;
     vertical-align: bottom;
-
 } 
 
 #particles-js{
@@ -151,7 +149,6 @@ canvas{
     color: #fff;
     text-shadow:
       0 0 7px #fff,
-     
       0 0 42px #f09,
       0 0 82px #f09,
       0 0 92px #f09,
@@ -161,7 +158,7 @@ canvas{
 
 body {
   font-size: 18px;
-  background-color: #010a01;
+  /*background-color: #010a01;*/
 }  
 
 h1, h2 {
@@ -186,12 +183,10 @@ h2 {
 @keyframes pulsate {
     
 100% {
-    text-shadow:
-    
+    text-shadow:  
     0 0 11px #fff,
     0 0 19px #fff,
     0 0 40px #f09,
-
 }
 
 0% {
@@ -207,21 +202,21 @@ h2 {
 }
 
 .skills{
-  
     display: flex;
     justify-content: center;
     z-index: -1;
     font-size: 30px;
     color: #fff;
 }
+
 .par{
     margin-top: 20px ;
     font-size: 20px;
-  margin:5px;
+    margin:5px;
     color: #fff;
     text-shadow: 1px 1px #f09;
     z-index: -1;
-  width:100%;
+    width:100%;
 }
 
 .par:hover{
@@ -488,6 +483,3 @@ h2 {
 
 }
 
-@media only screen and (hover: none){
-      // styles go here
-}
