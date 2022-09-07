@@ -412,19 +412,6 @@ h2 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .container {
   -webkit-perspective: 1000px !important;
           perspective: 1000px !important;
@@ -463,18 +450,6 @@ h2 {
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -539,14 +514,18 @@ h2 {
 }
 
 .nav{
-        font-size:15px ;
+        font-size:18px ;
+  font-weight:bolder;
 }
 .par{
   width:100%;
-        font-size: 18px;
+        font-size: 16px;
   margin:5px;
         text-align: center;
 }
+  .web, .site, span, p{
+    font-weight:bolder;
+  }
   
 
 }
