@@ -3,6 +3,8 @@ body{
     font:normal 75% Arial, Helvetica, sans-serif;
     background-color: #201c1c;
 } 
+
+
 canvas{
     display: block;
     vertical-align: bottom;
@@ -214,11 +216,12 @@ h2 {
 }
 .par{
     margin-top: 20px ;
-    font-size: 30px;
+    font-size: 20px;
+  margin:5px;
     color: #fff;
     text-shadow: 1px 1px #f09;
     z-index: -1;
-  
+  width:100%;
 }
 
 .par:hover{
@@ -453,6 +456,7 @@ h2 {
         font-size: 18px;
   margin:25px;
         text-align: center;
+    width:100%;
 }
 }
 
@@ -475,6 +479,7 @@ h2 {
         font-size:15px ;
 }
 .par{
+  width:100%;
         font-size: 18px;
   margin:5px;
         text-align: center;
