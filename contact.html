@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactar</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="cursor-glow"></div>
+    <div id="contact">
+
+        <div class="contact-box">
+
+          <div class="contact-links">
+            <h2 class="contactAnimation">CONTACTAR</h2>
+
+            <div class="links">
+
+              <div class="link">
+                <a><img src="https://i.postimg.cc/m2mg2Hjm/linkedin.png" alt="linkedin"></a>
+              </div>
+
+              <div class="link">
+                <a><img src="https://i.postimg.cc/YCV2QBJg/github.png" alt="github"></a>
+              </div>
+              
+              <div class="link">
+                <a  href="mailto:nataliaklueva@hotmail.com"><img src="https://i.postimg.cc/NjLfyjPB/email.png" alt="email"></a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="contact-form-wrapper">
+
+            <form action="https://formspree.io/f/mpzbnday"
+            method="POST">
+              <div class="form-item">
+                <input type="text" name="sender" required>
+                <label>Nombre:</label>
+              </div>
+
+              <div class="form-item">
+                <input type="text" name="email" required>
+                <label>E-mail:</label>
+              </div>
+
+              <div class="form-item">
+                <textarea  name="message" required></textarea>
+                <label>Mensaje:</label>
+              </div>
+
+              <button type="submit" class="submit-btn"> ENVIAR </button>  
+            </form>
+
+          </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/TextPlugin.min.js"></script>
+    
+
+<script src="contact.js"></script>
+</body>
+</html>
