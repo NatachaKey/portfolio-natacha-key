@@ -261,13 +261,13 @@ h2 {
     z-index: 1;
 }
 
-.project {
+/*.project {
     color: #ededed;
     width: 100%;
     display: flex;
     justify-content: center;
   
-} 
+} */
 
 .wrappered {
     width: 100%;
