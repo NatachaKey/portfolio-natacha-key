@@ -449,6 +449,11 @@ h2 {
 .textOne, .textTwo {
     font-size: 24px;
 }
+  .par{
+        font-size: 18px;
+  margin:25px;
+        text-align: center;
+}
 }
 
 @media all and (max-width: 500px){
@@ -470,7 +475,8 @@ h2 {
         font-size:15px ;
 }
 .par{
-        font-size: 15px;
+        font-size: 18px;
+  margin:5px;
         text-align: center;
 }
 
