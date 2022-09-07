@@ -488,6 +488,7 @@ h2 {
     border-radius: 2px;
     font-size: 26px;
     text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.6);
+  font-family: 'Roboto', sans-serif;
 }
 
 .site:hover {
