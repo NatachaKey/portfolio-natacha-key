@@ -6,6 +6,7 @@ body{
 canvas{
     display: block;
     vertical-align: bottom;
+
 } 
 
 #particles-js{
@@ -188,9 +189,6 @@ h2 {
     0 0 11px #fff,
     0 0 19px #fff,
     0 0 40px #f09,
-   
-   
-   
 
 }
 
@@ -201,14 +199,13 @@ h2 {
     0 0 10px #fff,
     0 0 18px #fff,
     0 0 38px #f09,
-    0 0 73px #f09,
-   
-   
+    0 0 73px #f09, 
 }
 
 }
 
 .skills{
+  
     display: flex;
     justify-content: center;
     z-index: -1;
@@ -221,12 +218,14 @@ h2 {
     color: #fff;
     text-shadow: 1px 1px #f09;
     z-index: -1;
+  
 }
 
 .par:hover{
     font-size:35px;
     transition: all 500ms;
     font-size-adjust: 20px; 
+ 
 }
 
 .content {
@@ -242,6 +241,7 @@ h2 {
     width: 100%;
     display: flex;
     justify-content: center;
+  
 } 
 
 .wrappered {
@@ -470,7 +470,7 @@ h2 {
         font-size:15px ;
 }
 .par{
-        font-size: 20px;
+        font-size: 15px;
         text-align: center;
 }
 
