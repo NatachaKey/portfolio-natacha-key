@@ -1,27 +1,136 @@
-/*
-This is your site JavaScript code - you can add interactivity and carry out processing
-- Initially the JS writes a message to the console, and moves a button you can add from the README
-*/
+particlesJS("particles-js",{
+"particles":{
+    "number":{
+        "value":63,
+        "density":{
+            "enable":true,
+            "value_area":800
+        }
+    },
+    "color":{
+            "value":"#fff"
+    },
+    "shape":{
+        "type":"polygon",
+        "stroke":{
+            "width":0,
+            "color":"#000000"
+        },
+        "polygon":{
+            "nb_sides":5
+        },
+    "image":{
+        "src":"img/github.svg",
+        "width":50,
+        "height":50
+        }
+    },
+    "opacity":{
+        "value":0.5,
+        "random":true,
+        "anim":{
+            "enable":false,
+            "speed":3,
+            "opacity_min":0.1,
+            "sync":false
+            }
+    },
+    "size":{
+        "value":7,
+        "random":true,
+        "anim":{
+            "enable":false,
+            "speed":40,
+            "size_min":0.1,
+            "sync":false
+        }
+    },
 
-// Print a message in the browser's dev tools console each time the page loads
-// Use your menus or right-click / control-click and choose "Inspect" > "Console"
-console.log("Hello 🌎");
-
-/* 
-Make the "Click me!" button move when the visitor clicks it:
-- First add the button to the page by following the "Next steps" in the README
-*/
-const btn = document.querySelector("button"); // Get the button from the page
-// Detect clicks on the button
-if (btn) {
-  btn.onclick = function() {
-    // The JS works in conjunction with the 'dipped' code in style.css
-    btn.classList.toggle("dipped");
-  };
+    "line_linked":{
+        "enable":false,
+        "distance":500,
+        "color":"#ffffff",
+        "opacity":0.4,
+        "width":2
+    },
+    "move":{
+        "enable":true,
+        "speed":5,
+        "direction":"top-right",
+        "random":true,
+        "straight":true,
+        "out_mode":"out",
+        "bounce":true,
+        "attract":{
+            "enable":true,
+            "rotateX":1200,
+            "rotateY":1200}
 }
+    },
 
-// This is a single line JS comment
-/*
-This is a comment that can span multiple lines 
-- use comments to make your own notes!
-*/
+"interactivity":{
+"detect_on":
+    "canvas",
+        "events":{
+            "onhover":{
+                "enable":true,
+                "mode":"bubble"
+            },
+            "onclick":{
+                "enable":true,
+                "mode":"repulse"
+            },
+            "resize":true
+        },
+    
+    "modes":{
+        "grab":{
+            "distance":400,
+            "line_linked":{
+            "opacity":0.5}
+        },
+        "bubble":{
+            "distance":400,
+            "size":4,
+            "duration":0.3,
+            "opacity":1,
+            "speed":1
+        },
+        "repulse":{
+            "distance":300,
+            "duration":1
+        },
+            "push":{
+            "particles_nb":20
+        },
+    "remove":{
+        "particles_nb":2
+    }
+    }
+},
+
+"retina_detect":true
+    });
+
+
+gsap.from('.heading', {y:-500, delay:.2, duration:1, opacity:0, ease:'power4.out'})
+gsap.from('.textOne', {y:500, delay:2.5, duration:2, opacity:0, ease:'power4.out'})
+gsap.from('.textTwo', {y:200, delay:2.5, duration:2, opacity:0, ease:'power4.out'})
+gsap.from('.button-85', {y:50, delay:4, duration:2, opacity:0, ease:'power4.out'})
+gsap.from('.nav', {y:-100, delay:5, duration:1, opacity:0, ease:'power4.out'})
+gsap.from('.par', {y:100, delay:7, duration:3, opacity:0, ease:'power4.out'})
+gsap.to('.heading', {scale:1.1, delay:.1, duration:3, ease:'power4.out'})
+gsap.to('.nextPage', {scale:1.1, delay:1.2, duration:2,  repeat:-1})
+gsap.to(".keyAnimation", {
+    text: "Klyueva",
+    duration: 1,
+    repeat: -1,
+    repeatDelay: .5,
+    ease: "power1.in",
+    yoyo: true,
+})
+
+
+
+
+
