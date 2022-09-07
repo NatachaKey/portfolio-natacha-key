@@ -509,7 +509,7 @@ h2 {
 }
 
 
-@media all and (max-width: 800px){
+@media all and (max-width: 830px){
 
 
 .heading {
@@ -519,11 +519,16 @@ h2 {
     font-size: 24px;
 }
   .par{
-        font-size: 18px;
-  margin:25px;
-        text-align: center;
-    width:100%;
+      font-size: 20px;
+      margin:25px;
+      text-align: center;
+      width:100%;
 }
+  .nav{
+    font-size:25px ;
+  font-weight:bolder;
+  }
+  
 }
 
 @media all and (max-width: 500px){
