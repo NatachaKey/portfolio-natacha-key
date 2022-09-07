@@ -9,6 +9,7 @@ body{
 canvas{
     display: block;
     vertical-align: bottom;
+  margin-:0;
 } 
 
 #particles-js{
