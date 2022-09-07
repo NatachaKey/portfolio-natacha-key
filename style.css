@@ -410,6 +410,74 @@ h2 {
     bottom: -.75rem;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  -webkit-perspective: 1000px !important;
+          perspective: 1000px !important;
+  }
+  .container:hover .front,
+  .container:hover .back{
+    -webkit-transition: none;
+    transition: none;
+    -o-transition: none;
+    transition: none;
+    transition: none;
+  }
+  .front,
+  .back {
+    -webkit-transition: none;
+    transition: none;
+    -o-transition: none;
+    transition: none;
+    transition: none;
+    -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+  }
+  .container .back{
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+  }
+  .container .front{
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+  }
+  .container:hover .back{
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  }
+  .container:hover .front{
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .site {
     color:#212121;
     text-decoration: none;
