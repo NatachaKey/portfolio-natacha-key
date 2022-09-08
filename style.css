@@ -1,6 +1,10 @@
 body {
   background: #FFF url("https://i.imgur.com/KheAuef.png") top left repeat-x;
  font:normal 75% Arial, Helvetica, sans-serif;
+   margin:0;
+    background-color: #201c1c;
+  font-size: 18px;
+  
 }
 
 .page    { display: none; padding: 0 0.5em; }
@@ -18,14 +22,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-
-
-
-body{
-    margin:0;
-    font:normal 75% Arial, Helvetica, sans-serif;
-    background-color: #201c1c;
-} 
 
 canvas{
     display: block;
@@ -182,11 +178,6 @@ canvas{
       0 0 151px #f09;
   }
 
-body {
-  font-size: 18px;
-  
-}  
-
 h1, h2 {
   text-align: center;
   font-weight: 400;
@@ -250,6 +241,7 @@ h2 {
     font-size:35px;
     transition: all 500ms;
     font-size-adjust: 20px; 
+  color: #f09;
  
 }
 

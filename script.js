@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', () =>
   }));
 
 
-
 particlesJS("particles-js",{
 "particles":{
     "number":{
