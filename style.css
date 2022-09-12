@@ -532,6 +532,10 @@ h2 {
 }
 
 @media all and (max-width: 500px){
+  
+   canvas.particles-js-canvas-el {
+   display: none;
+}
 .container {
     margin-top: 100px;
 }
@@ -563,9 +567,3 @@ h2 {
 
 }
 
-@media screen and (max-width: 500px)
- {
-   canvas.particles-js-canvas-el {
-   display: none;
-}
-}
