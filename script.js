@@ -1,42 +1,3 @@
-const wait = (delay = 0) =>
-  new Promise(resolve => setTimeout(resolve, delay));
-
-const setVisible = (elementOrSelector, visible) => 
-  (typeof elementOrSelector === 'string'
-    ? document.querySelector(elementOrSelector)
-    : elementOrSelector
-  ).style.display = visible ? 'block' : 'none';
-
-setVisible('.page', false);
-setVisible('#loading', true);
-
-document.addEventListener('DOMContentLoaded', () =>
-  wait(1000).then(() => {
-    setVisible('.page', true);
-    setVisible('#loading', false);
-  }));
-
-
-
-gsap.from('.heading', {y:-500, delay:.2, duration:1, opacity:0, ease:'power4.out'})
-gsap.from('.textOne', {y:500, delay:2.5, duration:2, opacity:0, ease:'power4.out'})
-gsap.from('.textTwo', {y:200, delay:2.5, duration:2, opacity:0, ease:'power4.out'})
-gsap.from('.button-85', {y:50, delay:4, duration:2, opacity:0, ease:'power4.out'})
-gsap.from('.nav', {y:-50, delay:5, duration:1, opacity:0, ease:'power4.out'})
-gsap.from('.par', {y:100, delay:6, duration:2, opacity:0, ease:'power4.out'})
-gsap.to('.heading', {scale:1.1, delay:.1, duration:3, ease:'power4.out'})
-gsap.to('.nextPage', {scale:1.1, delay:1.2, duration:2,  repeat:-1})
-gsap.to(".keyAnimation", {
-    text: "Klyueva",
-    duration: 1,
-    repeat: -1,
-    repeatDelay: .5,
-    ease: "power1.in",
-    yoyo: true,
-})
-
-
-
 particlesJS("particles-js", 
     {"particles":{
         "number":{
@@ -75,7 +36,7 @@ particlesJS("particles-js",
                 "random":false,
                 "anim":{
                     "enable":true,
-                    "speed":6,
+                    "speed":2,
                     "size_min":20,
                     "sync":false
                 }
@@ -89,7 +50,7 @@ particlesJS("particles-js",
             },
             "move":{
                 "enable":true,
-            "speed":5,
+            "speed":2,
             "direction":"none",
             "random":false,
             "straight":false,
@@ -106,6 +67,47 @@ particlesJS("particles-js",
 
 
 
+
+
+
+
+
+const wait = (delay = 0) =>
+  new Promise(resolve => setTimeout(resolve, delay));
+
+const setVisible = (elementOrSelector, visible) => 
+  (typeof elementOrSelector === 'string'
+    ? document.querySelector(elementOrSelector)
+    : elementOrSelector
+  ).style.display = visible ? 'block' : 'none';
+
+setVisible('.page', false);
+setVisible('#loading', true);
+
+document.addEventListener('DOMContentLoaded', () =>
+  wait(1000).then(() => {
+    setVisible('.page', true);
+    setVisible('#loading', false);
+  }));
+
+
+
+gsap.from('.heading', {y:-500, delay:.2, duration:1, opacity:0, ease:'power4.out'})
+gsap.from('.textOne', {y:500, delay:2.5, duration:2, opacity:0, ease:'power4.out'})
+gsap.from('.textTwo', {y:200, delay:2.5, duration:2, opacity:0, ease:'power4.out'})
+gsap.from('.button-85', {y:50, delay:4, duration:2, opacity:0, ease:'power4.out'})
+gsap.from('.nav', {y:-50, delay:5, duration:1, opacity:0, ease:'power4.out'})
+gsap.from('.par', {y:100, delay:6, duration:2, opacity:0, ease:'power4.out'})
+gsap.to('.heading', {scale:1.1, delay:.1, duration:3, ease:'power4.out'})
+gsap.to('.nextPage', {scale:1.1, delay:1.2, duration:2,  repeat:-1})
+gsap.to(".keyAnimation", {
+    text: "Klyueva",
+    duration: 1,
+    repeat: -1,
+    repeatDelay: .5,
+    ease: "power1.in",
+    yoyo: true,
+})
 
 
 
