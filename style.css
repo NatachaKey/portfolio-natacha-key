@@ -563,3 +563,9 @@ h2 {
 
 }
 
+@media screen and (max-width: 500px)
+ {
+   canvas.particles-js-canvas-el {
+   display: none;
+}
+}
