@@ -18,14 +18,14 @@ document.addEventListener('DOMContentLoaded', () =>
 
 
 
-
-gsap.from('.textOne', {y:100, delay:2.5, duration:2, opacity:0, ease:'power4.out'})
-gsap.from('.textTwo', {y:100, delay:2.5, duration:2, opacity:0, ease:'power4.out'})
+gsap.from('.heading', {y:-500, delay:.2, duration:1, opacity:0, ease:'power4.out'})
+gsap.from('.textOne', {y:500, delay:2.5, duration:2, opacity:0, ease:'power4.out'})
+gsap.from('.textTwo', {y:200, delay:2.5, duration:2, opacity:0, ease:'power4.out'})
 gsap.from('.button-85', {y:50, delay:4, duration:2, opacity:0, ease:'power4.out'})
 gsap.from('.nav', {y:-50, delay:5, duration:1, opacity:0, ease:'power4.out'})
-gsap.from('.par', {y:50, delay:6, duration:2, opacity:0, ease:'power4.out'})
+gsap.from('.par', {y:100, delay:6, duration:2, opacity:0, ease:'power4.out'})
 gsap.to('.heading', {scale:1.1, delay:.1, duration:3, ease:'power4.out'})
-
+gsap.to('.nextPage', {scale:1.1, delay:1.2, duration:2,  repeat:-1})
 gsap.to(".keyAnimation", {
     text: "Klyueva",
     duration: 1,
@@ -75,7 +75,7 @@ particlesJS("particles-js",
                 "random":false,
                 "anim":{
                     "enable":true,
-                    "speed":1,
+                    "speed":6,
                     "size_min":20,
                     "sync":false
                 }
@@ -89,11 +89,11 @@ particlesJS("particles-js",
             },
             "move":{
                 "enable":true,
-            "speed":1,
+            "speed":5,
             "direction":"none",
             "random":false,
             "straight":false,
-            "out_mode":"in",
+            "out_mode":"out",
             "bounce":false,
             "attract":{
                 "enable":false,
@@ -102,39 +102,6 @@ particlesJS("particles-js",
             }
         }
     },
-    "interactivity":{
-      "detect_on":"canvas",
-      "events":{
-        "onhover":{
-          "enable":false,
-          "mode":"grab"},
-        "onclick":{
-          "enable":false,
-          "mode":"push"},
-        "resize":true},
-      "modes":{
-        "grab":{
-          "distance":400,
-          "line_linked":{
-            "opacity":1
-          }
-        },
-        "bubble":{
-          "distance":400,
-          "size":40,
-          "duration":2,
-          "opacity":8,
-          "speed":3},
-        "repulse":{
-          "distance":200,
-          "duration":0.4
-        },
-        "push":{
-          "particles_nb":4},
-        "remove":{
-          "particles_nb":2}
-      }},
-     "retina_detect":true}
-           );
+    "interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":false,"mode":"grab"},"onclick":{"enable":false,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
 
 
