@@ -535,10 +535,8 @@ h2 {
 }
 
 @media all and (max-width: 500px){
-  
- 
-  
-   canvas.particles-js-canvas-el {
+    
+canvas.particles-js-canvas-el {
    display: none;
 }
 .container {
