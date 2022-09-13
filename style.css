@@ -517,11 +517,20 @@ h2 {
     align-items: center;
 }
 
+.arrow {
+    width: 25px;
+   background-color: #201c1c;
+  text-align:center;
+  }
 
+#back, #next {
+   background-color: #201c1c;
+  border:none;
+}
 
-
-
-
+.certificatesBox{
+  margin-top:30px;
+}
 
 @media all and (max-width: 830px){
 

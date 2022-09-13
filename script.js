@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () =>
 const back = document.querySelector('#back');
 const next = document.querySelector('#next');
 
-const photos =['https://cdn.glitch.global/61e4d664-14f3-4b71-a358-b09c48c87825/Natalia%20Klyueva%20js.png?v=1663084728248', 'https://cdn.glitch.global/61e4d664-14f3-4b71-a358-b09c48c87825/Natalia%20Klyueva%20figma.png?v=1663084736091', 'https://cdn.glitch.global/61e4d664-14f3-4b71-a358-b09c48c87825/Natalia%20Klyueva%20Bootstrap-1.png?v=1663084792475', 'https://cdn.glitch.global/61e4d664-14f3-4b71-a358-b09c48c87825/Natalia%20Klyueva%20Bootstrap-1.png?v=1663084792475'];
+const photos =['https://cdn.glitch.global/61e4d664-14f3-4b71-a358-b09c48c87825/Natalia%20Klyueva%20js.png?v=1663084728248', 'https://cdn.glitch.global/61e4d664-14f3-4b71-a358-b09c48c87825/Natalia%20Klyueva%20figma.png?v=1663084736091', 'https://cdn.glitch.global/61e4d664-14f3-4b71-a358-b09c48c87825/Natalia%20Klyueva%20Bootstrap-1.png?v=1663084792475', 'https://cdn.glitch.global/61e4d664-14f3-4b71-a358-b09c48c87825/Natalia%20Klyueva%20HTML%20CSS-1.png?v=1663084781016'];
 let i=0;
 next.addEventListener('click', ()=>{
     i++;
