@@ -245,12 +245,7 @@ h2 {
   font-family: 'Roboto', sans-serif;
 }
 
-.par:hover{
-    font-size:35px;
-    transition: all 500ms;
-    font-size-adjust: 20px; 
-  
-}
+
 
 
 .content {
@@ -572,7 +567,7 @@ canvas.particles-js-canvas-el {
   }
   
  #back, #next {
-   
+   margin-left:150px;
 }
   #pictures{
     width:350px;
