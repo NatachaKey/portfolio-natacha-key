@@ -16,6 +16,28 @@ document.addEventListener('DOMContentLoaded', () =>
     setVisible('#loading', false);
   }));
 
+const back = document.querySelector('#back');
+const next = document.querySelector('#next');
+
+const photos =['https://cdn.glitch.global/61e4d664-14f3-4b71-a358-b09c48c87825/Natalia%20Klyueva%20js.png?v=1663084728248', 'https://cdn.glitch.global/61e4d664-14f3-4b71-a358-b09c48c87825/Natalia%20Klyueva%20figma.png?v=1663084736091', 'https://cdn.glitch.global/61e4d664-14f3-4b71-a358-b09c48c87825/Natalia%20Klyueva%20Bootstrap-1.png?v=1663084792475', 'https://cdn.glitch.global/61e4d664-14f3-4b71-a358-b09c48c87825/Natalia%20Klyueva%20Bootstrap-1.png?v=1663084792475'];
+let i=0;
+next.addEventListener('click', ()=>{
+    i++;
+    if(i>photos.length-1){
+        i=0;
+    }
+    document.querySelector('#pictures').src=photos[i];
+})
+back.addEventListener('click', ()=>{
+    i--;
+    if(i<0){
+        i=photos.length-1;
+    }
+    document.querySelector('#pictures').src=photos[i];
+})
+
+
+
 
 
 gsap.from('.heading', {y:-500, delay:.2, duration:1, opacity:0, ease:'power4.out'})
