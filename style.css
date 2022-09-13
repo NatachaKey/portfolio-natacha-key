@@ -516,11 +516,15 @@ h2 {
     width: 25px;
    background-color: #201c1c;
   text-align:center;
+  box-shadow:0 0 10px #fff;
+  border-radius:50%;
+  margin:8px;
   }
 
 #back, #next {
    background-color: #201c1c;
   border:none;
+ 
 }
 
 .certificatesBox{
@@ -597,7 +601,11 @@ canvas.particles-js-canvas-el {
   .web, .site, span, p{
     font-weight:bolder;
   }
-  
+  .arrow {
+    margin:8px;
+  box-shadow:0 0 10px #fff;
+  border-radius:none;
+  }
 
 }
 
