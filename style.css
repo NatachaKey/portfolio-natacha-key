@@ -529,7 +529,11 @@ h2 {
 }
 
 .certificatesBox{
-  margin-top:30px;
+  margin-top:180px;
+}
+
+.btn{
+   text-align:center;
 }
 
 @media all and (max-width: 830px){
@@ -562,6 +566,18 @@ canvas.particles-js-canvas-el {
 .container {
     margin-top: 100px;
 }
+  
+.certificatesBox{
+    width:50%;
+  }
+  
+ #back, #next {
+   
+}
+  #pictures{
+    width:350px;
+  }
+  
 .nextPage {
     margin-top: 50px;
     margin-bottom: 50px;
