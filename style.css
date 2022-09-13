@@ -496,8 +496,8 @@ h2 {
 }
 
 .arrow {
-    width: 25px;
-   background-color: #201c1c;
+  width: 25px;
+  background-color: #201c1c;
   text-align:center;
   box-shadow:0 0 10px #fff;
   border-radius:50%;
@@ -505,7 +505,7 @@ h2 {
   }
 
 #back, #next {
-   background-color: #201c1c;
+  background-color: #201c1c;
   border:none;
  
 }
