@@ -245,9 +245,6 @@ h2 {
   font-family: 'Roboto', sans-serif;
 }
 
-
-
-
 .content {
     height: 100%;
     min-height: 850px;
@@ -255,14 +252,6 @@ h2 {
     position: relative;
     z-index: 1;
 }
-
-/*.project {
-    color: #ededed;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  
-} */
 
 .wrappered {
     width: 100%;
@@ -432,8 +421,6 @@ h2 {
     bottom: -.75rem;
 }
 
-
-
 .container {
   -webkit-perspective: 1000px !important;
           perspective: 1000px !important;
@@ -473,8 +460,6 @@ h2 {
           transform-style: preserve-3d;
   }
 
-
-
 .site {
     color:#212121;
     text-decoration: none;
@@ -502,8 +487,6 @@ h2 {
     margin-bottom: 50px;
     text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.6);
 }
-
-
 
 #mycerteficates{
     display: flex;
@@ -589,22 +572,22 @@ canvas.particles-js-canvas-el {
 }
 
 .nav{
-        font-size:18px ;
+  font-size:18px ;
   font-weight:bolder;
 }
 .par{
   width:100%;
-        font-size: 16px;
+  font-size: 16px;
   margin:5px;
-        text-align: center;
+  text-align: center;
 }
-  .web, .site, span, p{
+.web, .site, span, p{
     font-weight:bolder;
   }
-  .arrow {
-    margin:8px;
-  box-shadow:0 0 10px #fff;
-  border-radius:none;
+.arrow {
+ margin:8px;
+ box-shadow:0 0 10px #fff;
+ border-radius:none;
   }
 
 }
