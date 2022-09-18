@@ -40,16 +40,16 @@ back.addEventListener('click', ()=>{
 
 
 
-gsap.from('.heading', {y:-500, delay:.2, duration:1, opacity:0, ease:'power4.out'})
+gsap.to('.heading', {scale:1.1, delay:.1, duration:3, ease:'power4.out'})
 gsap.from('.textOne', {y:500, delay:2.5, duration:2, opacity:0, ease:'power4.out'})
 gsap.from('.textTwo', {y:200, delay:2.5, duration:2, opacity:0, ease:'power4.out'})
 gsap.from('.button-85', {y:50, delay:4, duration:2, opacity:0, ease:'power4.out'})
 gsap.from('.nav', {y:-50, delay:5, duration:1, opacity:0, ease:'power4.out'})
-gsap.from('.par', {y:100, delay:6, duration:2, opacity:0, ease:'power4.out'})
-gsap.from('.certificatesBox', {y:100, delay:6.5, duration:2, opacity:0, ease:'power4.out'})
+gsap.from('.par', {y:100, delay:6, duration:3, opacity:0, ease:'power4.out'})
+gsap.from('.certificatesBox', {y:100, delay:6.5, duration:3, opacity:0, ease:'power4.out'})
 
-gsap.to('.heading', {scale:1.1, delay:.1, duration:3, ease:'power4.out'})
-gsap.to('.nextPage', {scale:1.1, delay:1.2, duration:2,  repeat:-1})
+
+
 gsap.to(".keyAnimation", {
     text: "Klyueva",
     duration: 1,
