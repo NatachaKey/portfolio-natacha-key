@@ -518,23 +518,11 @@ h2 {
    text-align:center;
 }
 
-.center{
-  display:flex;
-  justify-content:center;
-}
-#compteur{
-  background-color:black;
-}
-.column{
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  z-index:10;
-  text-align:center;
-}
-.map{
-  width:100%;
-}
+
+
+
+
+
 @media all and (max-width: 830px){
 
 
