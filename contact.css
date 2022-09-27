@@ -173,6 +173,7 @@ textarea:valid+label {
   cursor: pointer;
   user-select: none;
   transition: 0.2s;
+  margin-bottom:30px;
 }
 
 .submit-btn:hover {
