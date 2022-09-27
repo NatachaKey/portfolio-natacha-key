@@ -518,6 +518,16 @@ h2 {
    text-align:center;
 }
 
+.center{
+  display:flex;
+  justify-content:center;
+}
+#compteur{
+  
+}
+.column{
+  
+}
 @media all and (max-width: 830px){
 
 
