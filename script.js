@@ -1,43 +1,3 @@
-const wait = (delay = 0) =>
-  new Promise(resolve => setTimeout(resolve, delay));
-
-const setVisible = (elementOrSelector, visible) => 
-  (typeof elementOrSelector === 'string'
-    ? document.querySelector(elementOrSelector)
-    : elementOrSelector
-  ).style.display = visible ? 'block' : 'none';
-
-setVisible('.page', false);
-setVisible('#loading', true);
-
-document.addEventListener('DOMContentLoaded', () =>
-  wait(1000).then(() => {
-    setVisible('.page', true);
-    setVisible('#loading', false);
-  }));
-
-const back = document.querySelector('#back');
-const next = document.querySelector('#next');
-
-const photos =['https://cdn.glitch.global/61e4d664-14f3-4b71-a358-b09c48c87825/Natalia%20Klyueva%20js.png?v=1663084728248', 'https://cdn.glitch.global/61e4d664-14f3-4b71-a358-b09c48c87825/Natalia%20Klyueva%20figma.png?v=1663084736091', 'https://cdn.glitch.global/61e4d664-14f3-4b71-a358-b09c48c87825/Natalia%20Klyueva%20Bootstrap-1.png?v=1663084792475', 'https://cdn.glitch.global/61e4d664-14f3-4b71-a358-b09c48c87825/Natalia%20Klyueva%20HTML%20CSS-1.png?v=1663084781016'];
-let i=0;
-next.addEventListener('click', ()=>{
-    i++;
-    if(i>photos.length-1){
-        i=0;
-    }
-    document.querySelector('#pictures').src=photos[i];
-})
-back.addEventListener('click', ()=>{
-    i--;
-    if(i<0){
-        i=photos.length-1;
-    }
-    document.querySelector('#pictures').src=photos[i];
-})
-
-
-
 
 
 gsap.to('.heading', {scale:1.1, delay:.1, duration:2, ease:'power4.out'})
@@ -162,5 +122,46 @@ particlesJS("particles-js",
       }},
      "retina_detect":true}
            );
+
+
+
+const wait = (delay = 0) =>
+  new Promise(resolve => setTimeout(resolve, delay));
+
+const setVisible = (elementOrSelector, visible) => 
+  (typeof elementOrSelector === 'string'
+    ? document.querySelector(elementOrSelector)
+    : elementOrSelector
+  ).style.display = visible ? 'block' : 'none';
+
+setVisible('.page', false);
+setVisible('#loading', true);
+
+document.addEventListener('DOMContentLoaded', () =>
+  wait(1000).then(() => {
+    setVisible('.page', true);
+    setVisible('#loading', false);
+  }));
+
+const back = document.querySelector('#back');
+const next = document.querySelector('#next');
+
+const photos =['https://cdn.glitch.global/61e4d664-14f3-4b71-a358-b09c48c87825/Natalia%20Klyueva%20js.png?v=1663084728248', 'https://cdn.glitch.global/61e4d664-14f3-4b71-a358-b09c48c87825/Natalia%20Klyueva%20figma.png?v=1663084736091', 'https://cdn.glitch.global/61e4d664-14f3-4b71-a358-b09c48c87825/Natalia%20Klyueva%20Bootstrap-1.png?v=1663084792475', 'https://cdn.glitch.global/61e4d664-14f3-4b71-a358-b09c48c87825/Natalia%20Klyueva%20HTML%20CSS-1.png?v=1663084781016'];
+let i=0;
+next.addEventListener('click', ()=>{
+    i++;
+    if(i>photos.length-1){
+        i=0;
+    }
+    document.querySelector('#pictures').src=photos[i];
+})
+back.addEventListener('click', ()=>{
+    i--;
+    if(i<0){
+        i=photos.length-1;
+    }
+    document.querySelector('#pictures').src=photos[i];
+})
+
 
 
