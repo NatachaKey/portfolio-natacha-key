@@ -467,13 +467,13 @@ h2 {
     padding: 5px 20px;
     border-radius: 8px;
     font-size: 26px;
-    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 4px 3px #fff;
   font-family: 'Roboto', sans-serif;
 }
 
 .site:hover {
     border: 2px double rgba(161, 152, 152, 0.3);
-    background-color:rgba(73, 71, 71, 0.3) ;
+    background-color:#F473B9 ;
     color:#212121;
 }
 
