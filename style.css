@@ -308,7 +308,7 @@ h2 {
     border-radius: 10px;
     color: #fff;
     font-size: 1.5rem;
-   font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
     font-weight: 300;
 }
@@ -597,7 +597,7 @@ canvas.particles-js-canvas-el {
     transition: none;
     transition: none;
     -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
+    backface-visibility: hidden;
   }
 }
 
