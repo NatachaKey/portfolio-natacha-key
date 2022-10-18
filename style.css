@@ -397,7 +397,7 @@ h2 {
     font-size: 2.2rem;
     margin-bottom: 2rem;
     position: relative;
-  text-align: center;
+    text-align: center;
     text-shadow: 0 1px 0 rgb(29, 29, 29),
         2px 2px 0 rgb(32, 32, 32),
         2px 3px 0 rgb(32, 32, 32),
@@ -437,16 +437,7 @@ h2 {
     transition: none;
     transition: none;
   }
-  .front,
-  .back {
-    -webkit-transition: none;
-    transition: none;
-    -o-transition: none;
-    transition: none;
-    transition: none;
-    -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-  }
+ 
   .container .back{
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
@@ -598,6 +589,15 @@ canvas.particles-js-canvas-el {
  box-shadow:0 0 10px #fff;
  border-radius:none;
   }
-
+.front,
+  .back {
+    -webkit-transition: none;
+    transition: none;
+    -o-transition: none;
+    transition: none;
+    transition: none;
+    -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+  }
 }
 
