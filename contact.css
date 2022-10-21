@@ -58,27 +58,6 @@ body {
 
 
 
-@media only screen and (max-width: 800px) {
-  .contact-links, .contact-form-wrapper {
-    width: 100%;
-  }
-  
-  .contact-links {
-    border-radius: 10px 10px 0 0;
-  }
-  
-  .contact-form-wrapper {
-    border-radius: 0 0 10px 10px;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  .contact-box {
-    width: 95%;
-    margin: 8% 5%;
-  }
-}
-
 h2 {
   font-family: 'Arimo', sans-serif;
   color: #fff;
@@ -205,13 +184,31 @@ a{
     position: absolute;
 }
 
+
+
+
 @media only screen and (max-width: 800px) {
-  h2 {
+  .contact-links, .contact-form-wrapper {
+    width: 100%;
+  }
+  
+  .contact-links {
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .contact-form-wrapper {
+    border-radius: 0 0 10px 10px;
+  }
+   h2 {
     font-size: clamp(40px, 10vw, 60px);
   }
 }
 
 @media only screen and (max-width: 400px) {
+  .contact-box {
+    width: 95%;
+    margin: 8% 5%;
+  }
   h2 {
     font-size: clamp(30px, 12vw, 60px);
   }
