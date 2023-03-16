@@ -6,8 +6,7 @@ document.addEventListener("mousemove", (event) => {
     elem.style.top = mousey + 'px';
 });
 
-gsap.from('.contact-links', {y:300, delay:.2, duration:3, opacity:0, ease:'power4.out'})
-gsap.from('.contact-form-wrapper', {y:-300, delay:.2, duration:3, opacity:0, ease:'power4.out'})
+
 gsap.to(".contactAnimation", {
     text: "ahora",
     delay:3,
