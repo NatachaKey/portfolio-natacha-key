@@ -56,8 +56,6 @@ body {
   border-radius: 0 10px 10px 0;
 }
 
-
-
 h2 {
   font-family: 'Arimo', sans-serif;
   color: #fff;
@@ -183,10 +181,18 @@ a{
     background-position: center;
     position: absolute;
 }
-
-
-
-
+.cta{
+  border:none;
+  background-color:#fff;
+  padding:10px;
+  border-radius: 10px;
+  text-align:center;
+  font-size:15px;
+}
+.center{
+  display:flex;
+  justify-content: center;
+}
 @media only screen and (max-width: 800px) {
   .contact-links, .contact-form-wrapper {
     width: 100%;

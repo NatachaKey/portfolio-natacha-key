@@ -1,15 +1,10 @@
-
-
 gsap.to('.heading', {scale:1.1, delay:.1, duration:2, ease:'power4.out'})
-gsap.from('.textOne', {y:500, delay:2.5, duration:2, opacity:0, ease:'power4.out'})
-gsap.from('.textTwo', {y:200, delay:2.5, duration:2, opacity:0, ease:'power4.out'})
+gsap.from('.textOne', {y:500, delay:2, duration:2, opacity:0, ease:'power4.out'})
+gsap.from('.textTwo', {y:200, delay:2, duration:2, opacity:0, ease:'power4.out'})
 gsap.from('.button-85', {y:50, delay:4, duration:3, opacity:0, ease:'power4.out'})
-gsap.from('.nav', {y:-100, delay:4.5, duration:2, opacity:0, ease:'power4.out'})
-gsap.from('.par', {y:50, delay:7, duration:2, opacity:0, ease:'power4.out'})
-gsap.from('.certificatesBox', {y:100, delay:8, duration:3, opacity:0, ease:'power4.out'})
-
-
-
+gsap.from('.nav', {y:-50, delay: 4, duration:1, opacity:0, ease:'power4.out'})
+gsap.from('.par', {y:50, delay:5, duration:1, opacity:0, ease:'power4.out'})
+gsap.from('.certificatesBox', {y:100, delay:6, duration:1, opacity:0, ease:'power4.out'})
 gsap.to(".keyAnimation", {
     text: "Klyueva",
     duration: 1,
@@ -18,8 +13,6 @@ gsap.to(".keyAnimation", {
     ease: "power1.in",
     yoyo: true,
 })
-
-
 
 particlesJS("particles-js", 
     {"particles":{
@@ -124,7 +117,6 @@ particlesJS("particles-js",
            );
 
 
-
 const wait = (delay = 0) =>
   new Promise(resolve => setTimeout(resolve, delay));
 
@@ -146,7 +138,7 @@ document.addEventListener('DOMContentLoaded', () =>
 const back = document.querySelector('#back');
 const next = document.querySelector('#next');
 
-const photos =['https://cdn.glitch.global/61e4d664-14f3-4b71-a358-b09c48c87825/Natalia%20Klyueva%20js.png?v=1663084728248', 'https://cdn.glitch.global/61e4d664-14f3-4b71-a358-b09c48c87825/Natalia%20Klyueva%20figma.png?v=1663084736091', 'https://cdn.glitch.global/61e4d664-14f3-4b71-a358-b09c48c87825/Natalia%20Klyueva%20Bootstrap-1.png?v=1663084792475', 'https://cdn.glitch.global/61e4d664-14f3-4b71-a358-b09c48c87825/Natalia%20Klyueva%20HTML%20CSS-1.png?v=1663084781016'];
+const photos =['https://cdn.glitch.global/61e4d664-14f3-4b71-a358-b09c48c87825/Natalia%20Klyueva%20_%20node.png?v=1669833435085','https://cdn.glitch.global/61e4d664-14f3-4b71-a358-b09c48c87825/Natalia%20Klyueva%20Bootstrap-1.png?v=1663084792475', 'https://cdn.glitch.global/61e4d664-14f3-4b71-a358-b09c48c87825/Natalia%20Klyueva%20figma.png?v=1663084736091', 'https://cdn.glitch.global/61e4d664-14f3-4b71-a358-b09c48c87825/Natalia%20Klyueva.png?v=1669830716151'];
 let i=0;
 next.addEventListener('click', ()=>{
     i++;
